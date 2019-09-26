@@ -11,12 +11,10 @@
         <module name="practice_zuul" />
         <module name="practice_eureka" />
         <module name="practice_auth" />
+        <module name="practice_config" />
         <module name="practice_improvecopy" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="practice_config" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
