@@ -1,0 +1,37 @@
+#spring:
+#  cloud:
+#    config:
+#      name: improve
+#      profile: dev
+#      uri: http://localhost:8888
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+
+spring:
+#  profiles:
+#    active:
+  application:
+    name: practiceimprove
+  cloud:
+    config:
+      name: improve
+      profile: dev
+      label: master
+#      uri: http://localhost:8888
+      discovery:
+        enabled: true
+        serviceId: practiceconfig
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
+server:
+  port: 8085
+

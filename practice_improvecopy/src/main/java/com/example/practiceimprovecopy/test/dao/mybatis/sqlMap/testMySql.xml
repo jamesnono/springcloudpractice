@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.practiceimprovecopy.test.dao.mybatis.mapper.TestMapper">
+    <resultMap type="com.example.practiceimprovecopy.test.model.TestYr"
+               id="testYr"></resultMap>
+
+    <!-- 查询字段的select部分 -->
+    <sql id="queryAllSql">
+    SELECT
+         T1.ID            as id                   /*记录编号*/
+        ,T1.AGE           as age               /*任务编号*/
+        ,T1.USERNAME       as username           /*提出人*/
+    </sql>
+
+    <!-- 查询字段的from部分 -->
+    <sql id="fromTableSql">
+    FROM TEST T1
+    WHERE 1=1
+    </sql>
+
+    <!-- 查询字段的where部分 -->
+    <sql id="whereAllSql">
+    </sql>
+
+
+<!--    &lt;!&ndash; 根据内容查询且分页 &ndash;&gt;-->
+<!--    <select id="queryByExamplePage" resultMap="logYr"-->
+<!--            parameterType="com.example.practiceimprove.taskyr.model.LogYr">-->
+<!--        <include refid="queryAllSql"/>-->
+<!--        <include refid="fromTableSql"/>-->
+<!--        <include refid="whereAllSql"/>-->
+<!--    </select>-->
+
+    <!-- 根据ID进行查询 -->
+    <select id="queryById" resultMap="testYr"
+            parameterType="com.example.practiceimprovecopy.test.model.TestYr">
+        <include refid="queryAllSql"/>
+        <include refid="fromTableSql"/>
+        and T1.ID=#{id}
+    </select>
+
+<!--    &lt;!&ndash; 查询所有的数据 &ndash;&gt;-->
+<!--    <select id="queryAll" resultMap="logYr"-->
+<!--            parameterType="com.example.practiceimprove.taskyr.model.LogYr">-->
+<!--        <include refid="queryAllSql"/>-->
+<!--        <include refid="fromTableSql"/>-->
+<!--        <include refid="whereAllSql"/>-->
+<!--    </select>-->
+
+<!--    &lt;!&ndash; 新建插入数据 &ndash;&gt;-->
+<!--    <insert id="insert" parameterType="com.example.practiceimprove.taskyr.model.LogYr">-->
+<!--        INSERT INTO TEST_LOG_YR(-->
+<!--         ROW_ID                 /*记录编号*/-->
+<!--        ,LOG_PROPOSE            /*提出者ID*/-->
+<!--        ,LOG_PROPOSE_TIME       /*提出时间*/-->
+<!--        ,TASK_ID                /*任务id*/-->
+<!--        ,ACTION_TYPE            /*操作类型*/-->
+<!--        ,LOG_CONTEXT            /*任务内容*/-->
+<!--        ) values (-->
+<!--         #{id}                   /*记录编号*/-->
+<!--        ,#{logPropose}           /*提出者ID*/-->
+<!--        ,#{logProposeTime}       /*提出时间*/-->
+<!--        ,#{taskId}               /*任务id*/-->
+<!--        ,#{actionType}           /*操作类型*/-->
+<!--        ,#{logContext}           /*操作内容*/-->
+<!--        )-->
+<!--    </insert>-->
+</mapper>

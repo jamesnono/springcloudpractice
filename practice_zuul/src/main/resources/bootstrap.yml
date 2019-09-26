@@ -1,0 +1,30 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    name: practicezuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
+zuul:
+  host:
+    connect-timeout-millis: 20000
+  routes:
+    practiceconsumer: /consumer/**
+    practiceimprove: /improve/**
+  prefix: /api
+
+#hystrix:
+#  command:
+#    myusers-service:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 20000
+
+ribbon:        #设置ribbon的超时时间小于zuul的超时时间
+  ReadTimeout: 4000
+  SocketTimeout: 4000
