@@ -12,7 +12,7 @@
 
     <modules>
         <module>practice_auth</module>
-        <module>practice_eureka</module>
+        <module></module>
         <module>practice_config</module>
         <module>practice_zuul</module>
         <module>practice_improve</module>
