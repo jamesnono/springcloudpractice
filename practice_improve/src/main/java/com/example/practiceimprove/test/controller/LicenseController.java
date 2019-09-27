@@ -1,5 +1,7 @@
 package com.example.practiceimprove.test.controller;
 
+import com.example.practiceimprove.test.model.TestYr;
+import com.example.practiceimprove.test.service.TestYrService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,21 +24,22 @@ import static java.lang.Thread.sleep;
 @RequestMapping("/hello")
 public class LicenseController {
 
-    @Value("${test}")
     @Resource
-    private String test;
+    private TestYrService testYrService;
 
     @RequestMapping("/test111")
     public String license(@RequestParam("name") String name)throws Exception{
         Random rand =new Random();
         int randNum =rand.nextInt((2+1))+1;
 //        if(true) {
-            try{
-                sleep(3000);
-            }catch (InterruptedException e){
-                e.printStackTrace();
-            }
+//            try{
+//                sleep(3000);
+//            }catch (InterruptedException e){
+//                e.printStackTrace();
+//            }
 //        }
-        return "hello"+name+"improve"+test;
+        TestYr testYr= new TestYr();
+        testYr.setUsername(name);
+        return "hello"+testYrService.queryByName(testYr).getAge()+"improve";
     }
 }

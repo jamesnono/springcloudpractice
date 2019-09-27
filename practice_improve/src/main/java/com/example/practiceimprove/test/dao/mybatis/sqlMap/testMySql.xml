@@ -39,6 +39,12 @@
         and T1.ID=#{id}
     </select>
 
+    <select id="queryByName" resultMap="testYr" parameterType="com.example.practiceimprove.test.model.TestYr">
+        <include refid="queryAllSql"/>
+        <include refid="fromTableSql"/>
+        and T1.USERNAME=#{username}
+    </select>
+
 <!--    &lt;!&ndash; 查询所有的数据 &ndash;&gt;-->
 <!--    <select id="queryAll" resultMap="logYr"-->
 <!--            parameterType="com.example.practiceimprove.taskyr.model.LogYr">-->

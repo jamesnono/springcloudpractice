@@ -7,4 +7,6 @@ import org.apache.ibatis.annotations.Mapper;
 public interface TestMapper {
 
     TestYr queryById(TestYr testYr);
+
+    TestYr queryByName(TestYr testYr);
 }
