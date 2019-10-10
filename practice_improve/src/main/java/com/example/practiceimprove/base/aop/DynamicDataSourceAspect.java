@@ -1,6 +1,7 @@
 package com.example.practiceimprove.base.aop;
 
 import com.example.practiceimprove.base.database.DataSourceAspect;
+import com.example.practiceimprove.test.model.TestYr;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -27,9 +28,9 @@ public class DynamicDataSourceAspect {
     }
 
     @Around("queryFromDataBase()")
-    public Object dynamicDataSourceAspect(ProceedingJoinPoint joinPoint) throws Throwable{
+    public TestYr dynamicDataSourceAspect(ProceedingJoinPoint joinPoint) throws Throwable{
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++");
-        Object obj= dataSourceAspect.changeDataSource(joinPoint);
+        TestYr obj= (TestYr) dataSourceAspect.changeDataSource(joinPoint);
         return obj;
     }
 }

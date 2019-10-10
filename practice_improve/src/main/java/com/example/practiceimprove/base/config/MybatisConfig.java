@@ -33,32 +33,34 @@ public class MybatisConfig {
 
     public BasicDataSource createBasicDataSource(){
         BasicDataSource basicDataSource = new BasicDataSource();
-//        basicDataSource.setDriverClassName(env.getProperty("spring.datasource.driver-class-name"));
-//        basicDataSource.setUrl(env.getProperty("spring.datasource.url"));
-//        basicDataSource.setUsername(env.getProperty("spring.datasource.username"));
-//        basicDataSource.setPassword(env.getProperty("spring.datasource.password"));
-        basicDataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        basicDataSource.setUsername("root");
-        basicDataSource.setPassword("root");
+        basicDataSource.setDriverClassName(env.getProperty("spring.datasource.driver-class-name"));
+        basicDataSource.setUsername(env.getProperty("spring.datasource.username"));
+        basicDataSource.setPassword(env.getProperty("spring.datasource.password"));
+//        basicDataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+//        basicDataSource.setUsername("root");
+//        basicDataSource.setPassword("root");
         basicDataSource.setTestOnBorrow(true);
         basicDataSource.setTestWhileIdle(true);
         return basicDataSource;
     }
     public BasicDataSource masterDataSource(){
         BasicDataSource basicDataSource= createBasicDataSource();
-        basicDataSource.setUrl("jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf-8&useSSL=false");
+//        basicDataSource.setUrl("jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf-8&useSSL=false");
+        basicDataSource.setUrl(env.getProperty("spring.datasource.url"));
         return basicDataSource;
     }
 
     public BasicDataSource slave01DataSource(){
         BasicDataSource basicDataSource= createBasicDataSource();
-        basicDataSource.setUrl("jdbc:mysql://localhost:3306/mysql1?useUnicode=true&characterEncoding=utf-8&useSSL=false");
+//        basicDataSource.setUrl("jdbc:mysql://localhost:3306/mysql1?useUnicode=true&characterEncoding=utf-8&useSSL=false");
+        basicDataSource.setUrl(env.getProperty("spring.datasource.url1"));
         return basicDataSource;
     }
 
     public BasicDataSource slave02DataSource(){
         BasicDataSource basicDataSource= createBasicDataSource();
-        basicDataSource.setUrl("jdbc:mysql://localhost:3306/mysql2?useUnicode=true&characterEncoding=utf-8&useSSL=false");
+//        basicDataSource.setUrl("jdbc:mysql://localhost:3306/mysql2?useUnicode=true&characterEncoding=utf-8&useSSL=false");
+        basicDataSource.setUrl(env.getProperty("spring.datasource.url2"));
         return basicDataSource;
     }
 
