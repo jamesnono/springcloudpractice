@@ -1,13 +1,11 @@
 package com.example.practiceimprove.test.controller;
 
 import com.example.practiceimprove.test.model.TestYr;
+import com.example.practiceimprove.test.properties.ProfileTest;
 import com.example.practiceimprove.test.service.TestYrService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.Random;
@@ -23,6 +21,9 @@ import static java.lang.Thread.sleep;
 @RestController
 @RequestMapping("/hello")
 public class LicenseController {
+
+    @Resource
+    private ProfileTest profileTest;
 
     @Resource
     private TestYrService testYrService;
@@ -41,5 +42,11 @@ public class LicenseController {
         TestYr testYr= new TestYr();
         testYr.setUsername(name);
         return "hello"+testYrService.queryByName(testYr).getAge()+"improve";
+    }
+
+    @ResponseBody
+    @RequestMapping("/profile")
+    public String profileTest(){
+        return profileTest.getProfileName();
     }
 }

@@ -4,11 +4,17 @@
     <list default="true" id="b5d9c028-096c-430a-959f-5115aa74032c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_config/src/main/java/com/example/practiceconfig/PracticeConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_config/src/main/java/com/example/practiceconfig/PracticeConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_config/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_config/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_config/src/test/java/com/example/practiceconfig/PracticeConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_config/src/test/java/com/example/practiceconfig/PracticeConfigApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice_improve/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/PracticeImproveApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/PracticeImproveApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/ControllerLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/ControllerLogAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/LicenseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/LicenseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/mapper/TestMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/sqlMap/testMySql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/sqlMap/testMySql.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,24 +38,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_zuul/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_zuul/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSourceAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="206">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DynamicDataSourceHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DynamicDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/MybatisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice_consumer/src/main/java/com/example/practiceconsumer/controller/HelloController.java">
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSourceType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -60,6 +122,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -79,20 +143,34 @@
       <list>
         <option value="$PROJECT_DIR$/practice_improvecopy/pom.xml" />
         <option value="$PROJECT_DIR$/practice_improvecopy/src/main/java/com/example/practiceimprovecopy/PracticeImprovecopyApplication.java" />
-        <option value="$PROJECT_DIR$/practice_config/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/practice_config/pom.xml" />
-        <option value="$PROJECT_DIR$/practice_config/src/main/java/com/example/practiceconfig/PracticeConfigApplication.java" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/LogAspect.java" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/sqlMap/testMySql.xml" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/mapper/TestMapper.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrService.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/PracticeImproveApplication.java" />
+        <option value="$PROJECT_DIR$/practice_config/pom.xml" />
+        <option value="$PROJECT_DIR$/practice_config/src/main/java/com/example/practiceconfig/PracticeConfigApplication.java" />
+        <option value="$PROJECT_DIR$/practice_config/src/main/java/com/example/practiceconfig/properties/Properties.java" />
+        <option value="$PROJECT_DIR$/practice_config/src/test/java/com/example/practiceconfig/PracticeConfigApplicationTests.java" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/LicenseController.java" />
+        <option value="$PROJECT_DIR$/practice_config/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/properties/ProfileTest.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/ConfigController.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/ParamController.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSource.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DynamicDataSource.java" />
         <option value="$PROJECT_DIR$/practice_improve/pom.xml" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/ControllerLogAspect.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrService.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/DynamicDataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java" />
         <option value="$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/PracticeImproveApplication.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSourceAspect.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DynamicDataSourceHolder.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSourceType.java" />
       </list>
     </option>
   </component>
@@ -129,8 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,52 +217,118 @@
             <path>
               <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practiceconsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practiceconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +341,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/new" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -220,6 +362,37 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.PracticeImproveApplicationTests.contextLoads">
+    <configuration name="PracticeConfigApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice_config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.practiceconfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.practiceconfig" />
+      <option name="MAIN_CLASS_NAME" value="com.example.practiceconfig.PracticeConfigApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeImproveApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice_improve" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.practiceimprove.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.practiceimprove" />
+      <option name="MAIN_CLASS_NAME" value="com.example.practiceimprove.PracticeImproveApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PracticeImproveApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="practice_improve" />
       <extension name="coverage">
@@ -289,6 +462,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PracticeImproveApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.PracticeConfigApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.PracticeAuthApplication" />
       <item itemvalue="Spring Boot.PracticeConfigApplication" />
       <item itemvalue="Spring Boot.PracticeConsumerApplication" />
@@ -296,7 +470,17 @@
       <item itemvalue="Spring Boot.PracticeImprovecopyApplication" />
       <item itemvalue="Spring Boot.PracticeImproveApplication" />
       <item itemvalue="Spring Boot.PracticeZuulApplication" />
+      <item itemvalue="JUnit.PracticeImproveApplicationTests" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PracticeImproveApplicationTests" />
+        <item itemvalue="JUnit.PracticeConfigApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -315,7 +499,14 @@
       <workItem from="1569484523519" duration="49000" />
       <workItem from="1569484589600" duration="478000" />
       <workItem from="1569494874481" duration="8085000" />
-      <workItem from="1569546151501" duration="1298000" />
+      <workItem from="1569546151501" duration="11928000" />
+      <workItem from="1569719607337" duration="881000" />
+      <workItem from="1570523068709" duration="479000" />
+      <workItem from="1570592310576" duration="140000" />
+      <workItem from="1570603441510" duration="1122000" />
+      <workItem from="1570604864792" duration="791000" />
+      <workItem from="1570608835440" duration="365000" />
+      <workItem from="1570675960893" duration="15852000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud 练习项目">
       <created>1569470374035</created>
@@ -401,37 +592,56 @@
       <option name="project" value="LOCAL" />
       <updated>1569494943285</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加简单aop测试">
+      <created>1569547723621</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569547723622</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.09.26 at 20h 55m 07s.xml">
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 32m 17s.xml">
       <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.09.26 at 20h 55m 51s.xml">
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 34m 25s.xml">
       <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.09.27 at 09h 07m 16s.xml">
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 36m 20s.xml">
       <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.09.27 at 09h 08m 18s.xml">
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 36m 36s.xml">
       <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.09.27 at 09h 16m 17s.xml">
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 37m 01s.xml">
       <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.09.27 at 09h 19m 53s.xml">
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 37m 41s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 37m 57s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 38m 14s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 38m 28s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2019.10.10 at 16h 39m 47s.xml">
       <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18400000" />
+    <option name="totallyTimeSpent" value="48660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.230563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -440,25 +650,26 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.72521245" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.18696883" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3937677" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.305949" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4490085" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.11473088" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.32152975" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3937677" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49731904" weight="0.24787535" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5013624" side_tool="true" weight="0.15281501" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20576407" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49863762" visible="true" weight="0.15281501" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -477,21 +688,15 @@
     <MESSAGE value="spring cloud 练习项目" />
     <MESSAGE value="添加config" />
     <MESSAGE value="项目修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目修改" />
+    <MESSAGE value="添加简单aop测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加简单aop测试" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springcloudpractice$PracticeImproveApplicationTests_contextLoads.ic" NAME="PracticeImproveApplicationTests.contextLoads Coverage Results" MODIFIED="1570696627649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.practiceimprove.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-961" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improvecopy/src/main/java/com/example/practiceimprovecopy/test/model/TestYr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_improvecopy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-969">
@@ -524,18 +729,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_config/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2699" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_config/src/main/resources/bootstrap.yml" />
     <entry file="file://$PROJECT_DIR$/practice_consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -550,120 +748,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_config/practice_config.iml" />
-    <entry file="file://$PROJECT_DIR$/practice_config/src/main/java/com/example/practiceconfig/PracticeConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/sqlMap/testMySql.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/mapper/TestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/ConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/ControllerLogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/LicenseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/PracticeImproveApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,20 +763,301 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice_consumer/src/main/java/com/example/practiceconsumer/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.8.RELEASE/spring-boot-autoconfigure-2.1.8.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE.jar!/org/springframework/boot/SpringBootConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_config/src/test/java/com/example/practiceconfig/PracticeConfigApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_config/src/main/java/com/example/practiceconfig/PracticeConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_config/src/main/java/com/example/practiceconfig/properties/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice_zuul/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice_zuul/src/main/java/com/example/practicezuul/PracticeZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practice_zuul/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="282">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_consumer/src/main/java/com/example/practiceconsumer/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/properties/ProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_config/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/LicenseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/ParamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DynamicDataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="110" column="36" selection-start-line="110" selection-start-column="36" selection-end-line="110" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.9.RELEASE/spring-jdbc-5.1.9.RELEASE.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/ControllerLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/DynamicDataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/dao/mybatis/mapper/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/PracticeImproveApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSourceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DynamicDataSourceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSourceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>

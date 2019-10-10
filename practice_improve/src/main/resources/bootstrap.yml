@@ -13,8 +13,8 @@ management:
 
 
 spring:
-#  profiles:
-#    active:
+  profiles:
+    active: dev
   application:
     name: practiceimprove
   cloud:

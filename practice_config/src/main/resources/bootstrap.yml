@@ -2,8 +2,6 @@ server:
   port: 8888
 
 spring:
-  profile:
-    active: native
   application:
     name: practiceconfig
   cloud:
@@ -17,3 +15,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8090/eureka/
+
+my:
+  servers:
+    - dev.example.com
+    - local.example.com

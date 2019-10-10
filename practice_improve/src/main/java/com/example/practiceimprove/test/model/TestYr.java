@@ -54,4 +54,14 @@ public class TestYr {
     public void setTest(String test) {
         this.test = test;
     }
+
+    @Override
+    public String toString(){
+        StringBuffer sb =new StringBuffer("TestYr:--");
+        sb.append("test:"+test);
+        sb.append("username:"+username);
+        sb.append("id:"+id);
+        sb.append("age:"+age);
+        return sb.toString();
+    }
 }

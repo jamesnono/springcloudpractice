@@ -8,7 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-@ComponentScan(basePackages = "com.example.practiceimprove.*")
+
 @EnableAspectJAutoProxy(proxyTargetClass=true)
 @EnableDiscoveryClient
 @SpringBootApplication
