@@ -31,5 +31,4 @@ public class PracticeImproveApplicationTests {
             System.out.println(testYrService.queryById(testYr).getUsername());
         }
     }
-
 }

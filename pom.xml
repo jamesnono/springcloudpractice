@@ -18,6 +18,7 @@
         <module>practice_improve</module>
         <module>practice_improvecopy</module>
         <module>practice_consumer</module>
+        <module>xxl-job-admin</module>
     </modules>
 
 </project>
