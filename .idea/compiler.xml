@@ -8,12 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="practice_improve" />
         <module name="practice_zuul" />
-        <module name="practice_improvecopy" />
+        <module name="xxl-job-admin" />
         <module name="practice_eureka" />
         <module name="practice_auth" />
-        <module name="xxl-job-admin" />
         <module name="practice_config" />
         <module name="practice_consumer" />
+        <module name="practice_improvecopy" />
       </profile>
     </annotationProcessing>
   </component>

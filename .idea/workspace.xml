@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d9c028-096c-430a-959f-5115aa74032c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_eureka/src/test/java/com/example/practiceeureka/PracticeEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_eureka/src/test/java/com/example/practiceeureka/PracticeEurekaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_eureka/target/test-classes/com/example/practiceeureka/PracticeEurekaApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/practice_eureka/target/test-classes/com/example/practiceeureka/PracticeEurekaApplicationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice_improve/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/XxlJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/XxlJobConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improvecopy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improvecopy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improvecopy/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improvecopy/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_improvecopy/src/test/java/com/example/practiceimprove/PracticeImprovecopyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice_improvecopy/src/test/java/com/example/practiceimprove/PracticeImprovecopyApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,65 +65,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_improve/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="513">
+              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="62">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/RedisConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/controller/ConfigController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/XxlJobConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="65">
+              <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -143,6 +113,8 @@
       <find>profile</find>
       <find>profile: dev</find>
       <find>XxlJobSpringExecutor</find>
+      <find>opsForSet</find>
+      <find>StringRedisSerializer</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -161,13 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSourceAspect.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DynamicDataSourceHolder.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/MybatisConfig.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSourceType.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/aop/DynamicDataSourceAspect.java" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/database/DataSource.java" />
         <option value="$PROJECT_DIR$/practice_eureka/src/test/java/com/example/practiceeureka/PracticeEurekaApplicationTests.java" />
         <option value="$PROJECT_DIR$/practice_config/pom.xml" />
@@ -208,10 +173,17 @@
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/trigger/TriggerTypeEnum.java" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/scheduler/XxlJobScheduler.java" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/bus/task/FirstDemoJobTask.java" />
-        <option value="$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/practice_improvecopy/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/practice_improvecopy/pom.xml" />
+        <option value="$PROJECT_DIR$/practice_improvecopy/src/test/java/com/example/practiceimprove/PracticeImprovecopyApplicationTests.java" />
         <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/XxlJobConfig.java" />
         <option value="$PROJECT_DIR$/practice_improve/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java" />
+        <option value="$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/RedisConfiguration.java" />
       </list>
     </option>
   </component>
@@ -232,30 +204,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="practice_improve" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="practice_improve" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="practice_improve" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.xuxueli:xxl-job-core:2.1.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="practice_improve" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.xuxueli:xxl-job-core:2.1.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="com.xuxueli:xxl-rpc-core:1.5.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -270,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,11 +227,109 @@
               <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="practice_improve" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practiceimprove" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -294,13 +342,15 @@
     <property name="MyBatisLogPluginrunning" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="D:/origincode/xxl-job-2.1.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kohler-linkcrm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -325,38 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.XxlJobAdminApplication">
-    <configuration name="PracticeConfigApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice_config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.practiceconfig.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.practiceconfig" />
-      <option name="MAIN_CLASS_NAME" value="com.example.practiceconfig.PracticeConfigApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticeEurekaApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice_eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.practiceeureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.practiceeureka" />
-      <option name="MAIN_CLASS_NAME" value="com.example.practiceeureka.PracticeEurekaApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.PracticeImproveApplication">
     <configuration name="PracticeEurekaApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice_eureka" />
       <extension name="coverage">
@@ -414,6 +433,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.practiceimprove" />
       <option name="MAIN_CLASS_NAME" value="com.example.practiceimprove.PracticeImproveApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeImprovecopyApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice_improvecopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.practiceimprove.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.practiceimprove" />
+      <option name="MAIN_CLASS_NAME" value="com.example.practiceimprove.PracticeImprovecopyApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeImprovecopyApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice_improvecopy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.practiceimprove.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.practiceimprove" />
+      <option name="MAIN_CLASS_NAME" value="com.example.practiceimprove.PracticeImprovecopyApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -480,11 +530,10 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PracticeImproveApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.PracticeConfigApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.PracticeImproveApplicationTests" />
       <item itemvalue="JUnit.PracticeEurekaApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.PracticeEurekaApplicationTests" />
       <item itemvalue="JUnit.PracticeEurekaApplicationTests.getNumberDecimalDigits" />
+      <item itemvalue="JUnit.PracticeImprovecopyApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.PracticeImprovecopyApplicationTests" />
       <item itemvalue="Spring Boot.PracticeAuthApplication" />
       <item itemvalue="Spring Boot.PracticeConfigApplication" />
       <item itemvalue="Spring Boot.PracticeConsumerApplication" />
@@ -493,14 +542,15 @@
       <item itemvalue="Spring Boot.PracticeImproveApplication" />
       <item itemvalue="Spring Boot.PracticeZuulApplication" />
       <item itemvalue="Spring Boot.XxlJobAdminApplication" />
+      <item itemvalue="JUnit.PracticeImproveApplicationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PracticeImproveApplicationTests" />
+        <item itemvalue="JUnit.PracticeImprovecopyApplicationTests" />
+        <item itemvalue="JUnit.PracticeImprovecopyApplicationTests.contextLoads" />
         <item itemvalue="JUnit.PracticeEurekaApplicationTests.contextLoads" />
         <item itemvalue="JUnit.PracticeEurekaApplicationTests.getNumberDecimalDigits" />
-        <item itemvalue="JUnit.PracticeEurekaApplicationTests" />
-        <item itemvalue="JUnit.PracticeImproveApplicationTests" />
-        <item itemvalue="JUnit.PracticeConfigApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +595,9 @@
       <workItem from="1578379788666" duration="66000" />
       <workItem from="1578379866968" duration="1250000" />
       <workItem from="1578381426608" duration="2252000" />
-      <workItem from="1578383880937" duration="568000" />
+      <workItem from="1578383880937" duration="1245000" />
+      <workItem from="1578386544897" duration="5980000" />
+      <workItem from="1578445533574" duration="15142000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud 练习项目">
       <created>1569470374035</created>
@@ -652,49 +704,56 @@
       <option name="project" value="LOCAL" />
       <updated>1570708170002</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="增加xxl-job服务">
+      <created>1578384650745</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578384650745</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PracticeEurekaApplicationTests_getNumberDecimalDigits - 2019.10.13 at 22h 01m 21s.xml">
-      <configuration name="PracticeEurekaApplicationTests.getNumberDecimalDigits" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 14h 11m 33s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.13 at 22h 01m 31s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 14h 17m 37s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.13 at 22h 02m 20s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 16h 07m 31s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.13 at 22h 03m 12s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 16h 09m 24s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.13 at 22h 04m 09s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 16h 10m 20s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.13 at 22h 06m 01s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 16h 10m 59s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.13 at 22h 07m 23s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 16h 12m 22s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.13 at 22h 12m 38s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 16h 20m 35s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.13 at 22h 35m 49s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 16h 21m 24s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracticeEurekaApplicationTests_contextLoads - 2019.10.14 at 23h 00m 47s.xml">
-      <configuration name="PracticeEurekaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="PracticeImproveApplicationTests_contextLoads - 2020.01.08 at 16h 21m 48s.xml">
+      <configuration name="PracticeImproveApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99128000" />
+    <option name="totallyTimeSpent" value="120927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19168901" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2841823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -705,7 +764,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.305949" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.10056657" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.11898017" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" visible="true" weight="0.42634562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -713,24 +772,24 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3937677" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.04249292" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.42634562" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.39660057" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49731904" weight="0.5056657" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49731904" weight="0.33427763" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.14305949" />
       <window_info anchor="bottom" id="MyBatis Log" order="17" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.38873994" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49863762" visible="true" weight="0.1769437" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5013624" side_tool="true" weight="0.15281501" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5013624" side_tool="true" weight="0.15281501" />
+      <window_info anchor="right" id="Maven" order="10" sideWeight="0.49863762" weight="0.3585791" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -746,7 +805,8 @@
     <MESSAGE value="添加简单aop测试" />
     <MESSAGE value="项目完善联系" />
     <MESSAGE value="使用Environment获取配置属性值" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用Environment获取配置属性值" />
+    <MESSAGE value="增加xxl-job服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加xxl-job服务" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -758,37 +818,8 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/xuxueli/xxl-job-core/2.1.0/xxl-job-core-2.1.0-sources.jar!/com/xxl/job/core/biz/model/RegistryParam.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/util/CookieUtil.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/xuxueli/xxl-job-core/2.1.0/xxl-job-core-2.1.0-sources.jar!/com/xxl/job/core/biz/model/TriggerParam.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/trigger/XxlJobTrigger.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/model/XxlJobGroup.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/model/XxlJobLogReport.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/route/strategy/ExecutorRouteBusyover.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/route/strategy/ExecutorRouteConsistentHash.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/route/strategy/ExecutorRouteFirst.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/route/strategy/ExecutorRouteLFU.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/route/strategy/ExecutorRouteRandom.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/route/strategy/ExecutorRouteRound.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/route/ExecutorRouter.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/route/ExecutorRouteStrategyEnum.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/service/impl/AdminBizImpl.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/trigger/TriggerTypeEnum.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/scheduler/XxlJobScheduler.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/core/conf/XxlJobAdminConfig.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/controller/interceptor/CookieInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/controller/JobApiController.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/controller/JobGroupController.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/controller/JobInfoController.java" />
     <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/admin/controller/annotation/PermissionLimit.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/xuxueli/xxl-rpc-core/1.4.1/xxl-rpc-core-1.4.1-sources.jar!/com/xxl/rpc/remoting/invoker/reference/XxlRpcReferenceBean.java" />
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/PracticeImproveApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/MybatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -852,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/xuxueli/xxl-rpc-core/1.4.1/xxl-rpc-core-1.4.1.jar!/com/xxl/rpc/serialize/impl/Hessian1Serializer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-397">
@@ -918,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/service/TestYrServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -939,19 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/XxlJobConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/jre/lib/rt.jar!/sun/nio/ch/Net.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -959,17 +963,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state relative-caret-position="242">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="-5301" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improvecopy/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improvecopy/src/test/java/com/example/practiceimprove/PracticeImprovecopyApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improvecopy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improvecopy/src/main/java/com/example/practiceimprovecopy/PracticeImprovecopyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar!/org/apache/commons/pool2/impl/BaseObjectPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improvecopy/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/XxlJobConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/PracticeImproveApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-redis/1.3.7.RELEASE/spring-boot-starter-redis-1.3.7.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot-starter-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-redis/1.3.7.RELEASE/spring-boot-starter-redis-1.3.7.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot-starter-redis/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/2.1.3.RELEASE/spring-boot-starter-data-redis-2.1.3.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-862">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="134" column="44" lean-forward="true" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3.jar!/redis/clients/jedis/JedisPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/serializer/GenericJackson2JsonRedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="56" column="86" lean-forward="true" selection-start-line="56" selection-start-column="86" selection-end-line="56" selection-end-column="86" />
+          <folding>
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="156" column="75" lean-forward="true" selection-start-line="156" selection-start-column="75" selection-end-line="156" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/test/model/TestYr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/main/java/com/example/practiceimprove/base/config/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_improve/src/test/java/com/example/practiceimprove/PracticeImproveApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>

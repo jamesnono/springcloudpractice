@@ -9,7 +9,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
+import redis.clients.jedis.Jedis;
 
 import javax.annotation.Resource;
 
@@ -18,17 +21,19 @@ import javax.annotation.Resource;
 public class PracticeImproveApplicationTests {
 
     @Resource
-    private TestYrService testYrService;
+    private RedisTemplate redisTemplate;
     @Resource
-    TestYr testYr;
-    @Resource
-    private TestMapper testMapper;
+    private StringRedisTemplate stringRedisTemplate;
+
     @Test
     public void contextLoads() {
-        TestYr testYr =new TestYr();
+        TestYr testYr = new TestYr();
+        testYr.setTest("Test");
         testYr.setId(1L);
-        for(int i=0;i<10;i++) {
-            System.out.println(testYrService.queryById(testYr).getUsername());
-        }
+        testYr.setAge(22L);
+        String key = String.format("testYr:%d",testYr.getId());
+        redisTemplate.opsForValue().set(key,testYr);
+        System.out.println(redisTemplate.opsForValue().get(key));
+        System.out.println(redisTemplate==stringRedisTemplate);
     }
 }

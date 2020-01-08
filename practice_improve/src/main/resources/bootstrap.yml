@@ -13,6 +13,18 @@ management:
 
 
 spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 100000
+    ssl: false
+    password:
+    jedis:
+      pool:
+        max-idle: 200
+        max-wait: 60000
+        max-active: 200
+        min-idle: 10
   profiles:
     active: dev
   application:

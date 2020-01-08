@@ -5,6 +5,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
+import java.io.Serializable;
+
 /**
  * @ClassName test
  * @Description TODO
@@ -13,7 +15,7 @@ import org.springframework.stereotype.Component;
  **/
 @Component
 //@ConfigurationProperties(prefix="book")
-public class TestYr {
+public class TestYr implements Serializable {
 
     private String test;
 
